@@ -1,0 +1,25 @@
+body {
+    margin: 0px;
+}
+
+.center {
+    margin: 0 auto;
+    padding: 100px;
+    width: 50%;
+    margin-top:100px;
+    margin-bottom: 100px;
+    background: green;
+    /* standard */
+    background: red\9;
+    /* IE 8 and below */
+    *background: red;
+    /* IE 7 and below */
+    _background: red;
+    /* IE 6 */
+}
+
+@-moz-document url-prefix() {
+    div {
+        background: red !important;
+    }
+}
